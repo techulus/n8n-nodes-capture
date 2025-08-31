@@ -5,6 +5,7 @@ This is an n8n community node for [Capture](https://capture.page) - a powerful A
 ![Capture](https://capture.page/logo.png)
 
 [Capture](https://capture.page) provides a reliable and fast API for web page capture with features like:
+
 - High-quality screenshots in multiple formats
 - PDF generation with custom formatting
 - Content extraction (HTML and text)
@@ -25,26 +26,34 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 This node supports all four Capture API endpoints:
 
 ### Screenshot
+
 Capture website screenshots with customizable options:
+
 - **Viewport dimensions** - Set custom width and height
 - **Full page** - Capture entire scrollable content
 - **Format** - PNG, JPEG, or WebP
 - **Output** - Binary data or URL only
 
 ### PDF
+
 Generate PDFs of web pages:
+
 - **Format** - A4, A3, A5, Letter, Legal, Tabloid
 - **Orientation** - Portrait or landscape
 - **Full page** - Include entire scrollable content
 - **Output** - Binary data or URL only
 
 ### Content
+
 Extract HTML content and plain text from web pages:
+
 - Returns structured JSON with HTML and text content
 - Useful for content analysis and processing
 
 ### Metadata
+
 Extract metadata from web pages:
+
 - Page titles, descriptions, Open Graph data
 - Social media metadata
 - SEO-related information
@@ -52,13 +61,17 @@ Extract metadata from web pages:
 ## Configuration
 
 ### Credentials
+
 You'll need to configure Capture API credentials:
+
 1. Go to **Settings** → **Credentials** in your n8n instance
 2. Create new credentials for **Capture API**
 3. Enter your **API Key** and **API Secret** from [Capture Console](https://capture.page/console)
 
 ### Additional Options
+
 All operations support additional options:
+
 - **User Agent** - Custom user agent string
 - **Wait For Selector/ID** - CSS selector or element ID to wait for
 - **Block Ads/Trackers/Cookie Banners** - Block advertisements, tracking scripts, and cookie popups
@@ -76,6 +89,7 @@ All operations support additional options:
 ## Example Workflows
 
 ### Basic Screenshot
+
 ```json
 {
   "operation": "screenshot",
@@ -88,6 +102,7 @@ All operations support additional options:
 ```
 
 ### Mobile Screenshot with Dark Mode
+
 ```json
 {
   "operation": "screenshot",
@@ -95,7 +110,6 @@ All operations support additional options:
   "viewportWidth": 375,
   "viewportHeight": 667,
   "additionalOptions": {
-    "mobile": true,
     "darkMode": true,
     "blockAds": true
   }
@@ -103,6 +117,7 @@ All operations support additional options:
 ```
 
 ### PDF Generation
+
 ```json
 {
   "operation": "pdf",
@@ -114,6 +129,7 @@ All operations support additional options:
 ```
 
 ### Content Extraction
+
 ```json
 {
   "operation": "content",
@@ -130,7 +146,9 @@ All operations support additional options:
 ## Version history
 
 ### 0.1.0
+
 Initial release with support for:
+
 - Screenshot capture with multiple formats
 - PDF generation
 - Content extraction
@@ -138,16 +156,13 @@ Initial release with support for:
 - Comprehensive parameter support
 - Binary data and URL output options
 
-## License
-
-[MIT](https://github.com/techulus/n8n-nodes-capture/blob/main/LICENSE.md)
-
 ## Support
 
 For issues related to this n8n node, please create an issue in this repository.
 
-For Capture API related issues, please contact [Capture Support](https://capture.page/support).
+For Capture API related issues, please contact [Capture Support](https://techulus.atlassian.net/servicedesk/customer/portal/3).
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
