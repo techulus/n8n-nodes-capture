@@ -21,10 +21,8 @@
 		"url": "https://github.com/techulus/n8n-nodes-capture.git"
 	},
 	"engines": {
-		"node": ">=18.10",
-		"pnpm": ">=7.18"
+		"node": ">=18.10"
 	},
-	"packageManager": "pnpm@7.18.0",
 	"main": "index.js",
 	"scripts": {
 		"build": "tsc && gulp build:icons",
