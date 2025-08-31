@@ -9,7 +9,7 @@
 	"resources": {
 		"credentialDocumentation": [
 			{
-				"url": "https://docs.capture.page/getting-started"
+				"url": "https://docs.capture.page/docs/get-started"
 			}
 		],
 		"primaryDocumentation": [
@@ -18,5 +18,10 @@
 			}
 		]
 	},
-	"alias": ["Screenshot", "PDF", "Web Capture", "Page Capture"]
+	"alias": [
+		"Screenshot",
+		"PDF",
+		"Web Capture",
+		"Page Capture"
+	]
 }
