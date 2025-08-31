@@ -1,5 +1,5 @@
 {
-	"name": "n8n-nodes-capture",
+	"name": "@techulus/n8n-nodes-capture",
 	"version": "0.1.0",
 	"description": "n8n node for Capture Page API - capture website screenshots, generate PDFs, extract content and metadata",
 	"keywords": [

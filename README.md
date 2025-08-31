@@ -1,4 +1,4 @@
-# n8n-nodes-capture
+# n8n Nodes - Capture
 
 This is an n8n community node for [Capture](https://capture.page) - a powerful API for capturing website screenshots, generating PDFs, extracting content, and retrieving metadata.
 
@@ -165,4 +165,3 @@ For Capture API related issues, please contact [Capture Support](https://techulu
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
