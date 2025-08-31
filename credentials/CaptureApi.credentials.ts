@@ -11,7 +11,7 @@ export class CaptureApi implements ICredentialType {
 
   displayName = "Capture API";
 
-  documentationUrl = "https://docs.capture.page/api/getting-started";
+  documentationUrl = "https://docs.capture.page/docs/get-started";
 
   properties: INodeProperties[] = [
     {
