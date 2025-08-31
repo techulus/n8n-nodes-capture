@@ -143,19 +143,6 @@ All operations support additional options:
 - [Get API Credentials](https://capture.page/console)
 - [n8n Community Nodes](https://docs.n8n.io/integrations/community-nodes/)
 
-## Version history
-
-### 0.1.0
-
-Initial release with support for:
-
-- Screenshot capture with multiple formats
-- PDF generation
-- Content extraction
-- Metadata extraction
-- Comprehensive parameter support
-- Binary data and URL output options
-
 ## Support
 
 For issues related to this n8n node, please create an issue in this repository.
