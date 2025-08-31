@@ -1,0 +1,22 @@
+{
+	"node": "n8n-nodes-capture.Capture",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"Data & Storage",
+		"Utility"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.capture.page/getting-started"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.capture.page"
+			}
+		]
+	},
+	"alias": ["Screenshot", "PDF", "Web Capture", "Page Capture"]
+}
