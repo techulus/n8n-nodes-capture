@@ -437,6 +437,13 @@ export const captureFields: INodeProperties[] = [
         description: "Whether to bypass bot detection systems",
       },
       {
+        displayName: "Stealth Browser",
+        name: "stealth",
+        type: "boolean",
+        default: false,
+        description: "Whether to use faster stealth mode to avoid triggering bot challenges",
+      },
+      {
         displayName: "Dark Mode",
         name: "darkMode",
         type: "boolean",
